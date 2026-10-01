@@ -1,5 +1,6 @@
 {
   "name": "workipedia",
+  "description": "Workipedia：生成图文并茂的 HTML 维基页面的 Claude 插件。",
   "owner": {
     "name": "NannaOlympicBroadcast"
   },
