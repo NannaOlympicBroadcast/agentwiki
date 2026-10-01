@@ -1,8 +1,8 @@
-# Workipedia
+# AgentWiki（Workipedia skill）
 
 输入一个主题，自动搜索网络、整理信息，生成图文并茂的结构化 HTML 维基页面，并提供预览。
 
-本仓库是一个 **Claude 插件**（Claude Code / Claude 桌面端 Cowork 均可使用），同时也是一个 marketplace，包含一个 skill：`workipedia`。
+本仓库是一个 **Claude 插件**（Claude Code / Claude 桌面端 Cowork 均可使用），同时也是一个 marketplace，插件名为 `agentwiki`，包含一个 skill：`workipedia`。
 
 ## 安装
 
@@ -12,7 +12,7 @@
 
 ```
 /plugin marketplace add NannaOlympicBroadcast/workipedia
-/plugin install workipedia@workipedia
+/plugin install agentwiki@agentwiki
 ```
 
 > 本仓库当前为私有仓库，需要本机 Git 已登录有权访问该仓库的 GitHub 账号（例如先执行 `gh auth login`）。
@@ -36,7 +36,7 @@ claude --plugin-dir ./workipedia
 - “百科介绍一下 RISC-V”
 - “主题详解：南京大学”
 
-也可以显式调用：`/workipedia:workipedia <主题>`。
+也可以显式调用：`/agentwiki:workipedia <主题>`。
 
 ## 工作流程
 
@@ -66,3 +66,7 @@ claude --plugin-dir ./workipedia
 
 - 输出为完整 HTML，不输出 Markdown。
 - 预览步骤依赖运行环境中的端口暴露/网页预览工具；没有该工具时，直接打开生成的 HTML 文件即可。
+
+## 许可证
+
+[MIT](LICENSE)
