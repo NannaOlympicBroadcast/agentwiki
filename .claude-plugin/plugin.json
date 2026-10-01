@@ -1,0 +1,11 @@
+{
+  "name": "workipedia",
+  "version": "1.0.0",
+  "description": "输入一个主题，自动搜索、整理并生成图文并茂的 HTML 维基页面。",
+  "author": {
+    "name": "NannaOlympicBroadcast",
+    "url": "https://github.com/NannaOlympicBroadcast"
+  },
+  "repository": "https://github.com/NannaOlympicBroadcast/workipedia",
+  "keywords": ["wiki", "html", "research", "skill"]
+}
