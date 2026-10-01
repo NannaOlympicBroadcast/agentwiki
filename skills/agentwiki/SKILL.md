@@ -1,9 +1,9 @@
 ---
-name: workipedia
+name: agentwiki
 description: 生成图文并茂的维基页面。输入一个主题，自动搜索网络、整理信息、生成结构化的 HTML 百科页面并提供预览。适用于需要快速了解某个主题并生成文档的场景，触发词如"生成维基页面"、"百科介绍"、"主题详解"等。
 ---
 
-# Workipedia
+# AgentWiki
 
 输入主题，生成图文并茂的 HTML 维基页面。
 

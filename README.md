@@ -1,8 +1,8 @@
-# AgentWiki（Workipedia skill）
+# AgentWiki
 
 输入一个主题，自动搜索网络、整理信息，生成图文并茂的结构化 HTML 维基页面，并提供预览。
 
-本仓库是一个 **Claude 插件**（Claude Code / Claude 桌面端 Cowork 均可使用），同时也是一个 marketplace，插件名为 `agentwiki`，包含一个 skill：`workipedia`。
+本仓库是一个 **Claude 插件**（Claude Code / Claude 桌面端 Cowork 均可使用），同时也是一个 marketplace，插件名为 `agentwiki`，包含一个 skill：`agentwiki`。
 
 ## 安装
 
@@ -11,7 +11,7 @@
 在 Claude Code 中依次执行：
 
 ```
-/plugin marketplace add NannaOlympicBroadcast/workipedia
+/plugin marketplace add NannaOlympicBroadcast/agentwiki
 /plugin install agentwiki@agentwiki
 ```
 
@@ -20,13 +20,13 @@
 ### 方式二：本地目录加载
 
 ```
-git clone https://github.com/NannaOlympicBroadcast/workipedia.git
-claude --plugin-dir ./workipedia
+git clone https://github.com/NannaOlympicBroadcast/agentwiki.git
+claude --plugin-dir ./agentwiki
 ```
 
 ### 方式三：只安装 skill
 
-把 `skills/workipedia` 整个目录复制到 `~/.claude/skills/`（个人级）或项目的 `.claude/skills/`（项目级）即可。
+把 `skills/agentwiki` 整个目录复制到 `~/.claude/skills/`（个人级）或项目的 `.claude/skills/`（项目级）即可。
 
 ## 使用
 
@@ -36,7 +36,7 @@ claude --plugin-dir ./workipedia
 - “百科介绍一下 RISC-V”
 - “主题详解：南京大学”
 
-也可以显式调用：`/agentwiki:workipedia <主题>`。
+也可以显式调用：`/agentwiki:agentwiki <主题>`。
 
 ## 工作流程
 
@@ -55,7 +55,7 @@ claude --plugin-dir ./workipedia
 │   ├── plugin.json          # 插件清单
 │   └── marketplace.json     # marketplace 清单
 ├── skills/
-│   └── workipedia/
+│   └── agentwiki/
 │       ├── SKILL.md         # skill 说明与工作流程
 │       └── templates/
 │           └── wiki_template.html
